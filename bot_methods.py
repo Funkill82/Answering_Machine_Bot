@@ -89,8 +89,8 @@ def get_json(dict_xlsx: dict) -> bool:
     try:
         step = 0
         cookies = {
-            'WBToken': "AubT5hPa09aqDNqPwKsMQtohtRMELrrpHhLQI17wnuLO1TkRJdH6PppDtbcNgfTkGNncip77WzF1HDnbK5yf_e-A2XddN0_lTRxyvm80MUApBg",
-            'x-supplier-id': "51de4438-9a42-5fdc-97a3-179e6e86a9b8",
+            'WBToken': "",
+            'x-supplier-id': "",
         }
         # cookies = cookies_user
         headers = {
@@ -101,8 +101,7 @@ def get_json(dict_xlsx: dict) -> bool:
                           ' (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
         while True:
-            # url = f"https://seller.wildberries.ru/ns/api/suppliers-portal-feedbacks-questions/api/v1/" \
-            #       f"feedbacks?isAnswered=false&nmId=&order=dateDesc&skip={step}&take=1000"
+
             url = f"https://seller.wildberries.ru/ns/api/suppliers-portal-feedbacks-questions/api/v1/" \
                  f"feedbacks?isAnswered=false&metaDataKeyMustNot=norating&nmId=&order=dateDesc&skip={step}&take=1000"
 

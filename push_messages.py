@@ -9,8 +9,8 @@ def push_answer_msg(dict_feedback: dict):
         # cookies = cookies_user
 
         cookies = {
-            "WBToken": "AubT5hPa09aqDNqPwKsMQtohtRMELrrpHhLQI17wnuLO1TkRJdH6PppDtbcNgfTkGNncip77WzF1HDnbK5yf_e-A2XddN0_lTRxyvm80MUApBg",
-            "x-supplier-id": "51de4438-9a42-5fdc-97a3-179e6e86a9b8",
+            "WBToken": "",
+            "x-supplier-id": "",
 
         }
         headers = {
